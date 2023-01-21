@@ -9,6 +9,7 @@ body {
 h1,
 h2 {
     color: darkred;
+    font-family:'Franklin Gothic Medium'; 
 }
 
 h3, 
@@ -18,11 +19,14 @@ li {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
-
+.service {
+    display: inline-block;
+    text-align: center;
+}
 main {
     margin: 0 20%;
 }
